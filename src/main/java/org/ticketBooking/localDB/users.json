@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Ruchit Nigam",
+    "password": "password123",
+    "hashPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "tickets": [
+      {
+        "ticketId": "T12345",
+        "userId": "U67890",
+        "source": "Pune",
+        "destination": "Lucknow",
+        "dateOfTravel": "2023-10-15T23:30:00Z",
+        "train": {
+          "trainId": "TR001",
+          "trainNo": "12345",
+          "seats": [
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+          ],
+          "schedule": {
+            "Bhopal ": "08:00:00",
+            "Jhansi": "13:20:00",
+            "Kanpur": "16:40:00"
+          },
+          "stations": ["Bhopal", "Jhansi", "Kanpur"]
+        }
+      }
+    ]
+  }
+]
