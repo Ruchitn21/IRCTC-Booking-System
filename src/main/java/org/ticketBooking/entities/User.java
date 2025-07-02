@@ -3,7 +3,6 @@ package org.ticketBooking.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 
 import java.util.List;
 
@@ -11,6 +10,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
+
+    private String userId;
 
     private String name;
 
