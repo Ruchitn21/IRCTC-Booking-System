@@ -1,7 +1,8 @@
 [
   {
-    "trainId": "TR001",
+    "trainId": "TR0011",
     "trainNo": "12345",
+    "trainName": "Shatabdi Express",
     "seats": [
       [0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0],
@@ -15,5 +16,24 @@
       "Kanpur": "16:40:00"
     },
     "stations": ["Bhopal", "Jhansi", "Kanpur"]
+  },
+  {
+    "trainId": "TR0201",
+    "trainNo": "67890",
+    "trainName": "Triveni Express",
+    "seats": [
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0]
+    ],
+    "schedule": {
+      "Jaipur": "08:00:00",
+      "Delhi": "13:20:00",
+      "Shimla": "16:40:00",
+      "Jammu": "20:00:00"
+    },
+    "stations": ["Jaipur", "Delhi", "Shimla", "Jammu"]
   }
 ]

@@ -17,10 +17,22 @@ public class Train {
 
     private String trainNo;
 
+    private String trainName;
+
     private List<List<Integer>> seats;
 
     private Map<String, String> schedule;
 
     private List<String> stations;
 
+    @Override
+    public String toString() {
+        return "Train{" +
+                "trainId='" + trainId + '\'' +
+                ", trainNo='" + trainNo + '\'' +
+                ", seats=" + seats +
+                ", schedule=" + schedule +
+                ", stations=" + stations +
+                '}';
+    }
 }
