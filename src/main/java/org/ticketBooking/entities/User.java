@@ -11,11 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 public class User {
 
-    private String userId;
-
     private String name;
-
-    private String password;
 
     private String hashedPassword;
 
