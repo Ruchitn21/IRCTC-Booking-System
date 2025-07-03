@@ -21,6 +21,8 @@ public class Ticket {
 
     private Date dateOfTravel;
 
+    private String trainName;
+
     @Override
     public String toString() {
         return "Ticket{" +
@@ -29,9 +31,7 @@ public class Ticket {
                 ", source='" + source + '\'' +
                 ", destination='" + destination + '\'' +
                 ", dateOfTravel=" + dateOfTravel +
-                ", train=" + train +
+                ", train=" + trainName +
                 '}';
     }
-
-    private Train train;
 }
